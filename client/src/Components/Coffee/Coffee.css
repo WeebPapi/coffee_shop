@@ -1,0 +1,19 @@
+.coffee-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 410px;
+  height: 240px;
+}
+.coffee-item-pic {
+  width: 100%;
+  max-width: 220px;
+  height: 90%;
+}
+.coffee-item-pic > img {
+  width: 100%;
+  height: 100%;
+}
